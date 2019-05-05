@@ -57,7 +57,7 @@ class NewVisitorTest(LiveServerTestCase):
 
         # self.fail('Finish the test')
 
-    def test_multiple_users_can_start_lists_at_differnt_urls(self):
+    def test_multiple_users_can_start_lists_at_different_urls(self):
         self.browser.get(self.live_server_url)
         input_box = self.browser.find_element_by_id('id_new_item')
         input_box.send_keys('Buy peacock feathers')
